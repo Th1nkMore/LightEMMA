@@ -21,7 +21,7 @@ def parse_args():
 def run_prediction():
     # Parse arguments and load configuration
     args = parse_args()
-    config = load_config("config.yaml")
+    config = load_config("MyConfig.yaml")
 
     # Load NuScenes parameters from config
     OBS_LEN = config["prediction"]["obs_len"]

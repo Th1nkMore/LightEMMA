@@ -126,7 +126,7 @@ def evaluate(args, scene_files, viz_dir, data_dir):
 
 def main():
     args = parse_args()
-    config = load_config("config.yaml")
+    config = load_config("MyConfig.yaml")
     data_dir = config["data"]["root"]
     results_dir = args.results_dir
 
